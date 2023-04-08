@@ -3,7 +3,7 @@ const seconds = document.querySelector(".seconds .number"),
   hours = document.querySelector(".hours .number"),
   days = document.querySelector(".days .number");
 
-const countDownDate = new Date("2023-04-08T23:59:59").getTime();
+const countDownDate = new Date("2023-04-15T23:59:59").getTime();
 
 const timeFunction = setInterval(() => {
   const now = new Date().getTime(); 
